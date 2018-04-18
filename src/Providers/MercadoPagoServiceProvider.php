@@ -2,7 +2,7 @@
 namespace EnlineaLab\MercadoPago\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use LivePixel\MercadoPago\MP;
+use EnlineaLab\MercadoPago\MP;
 
 class MercadoPagoServiceProvider extends ServiceProvider 
 {
