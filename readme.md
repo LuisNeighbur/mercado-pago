@@ -115,7 +115,7 @@ class HomeController extends Controller
 <a name="info"></a>
 ### Mas
 
-Para más información acceda al sitio de [Mercado Pago para desarrolladores](https://developers.mercadopago.com/) y tambien a [repositório do SDK oficial](https://github.com/mercadopago/sdk-php)
+Para más información acceda al sitio de [Mercado Pago para desarrolladores](https://developers.mercadopago.com/) y tambien a [repositório de SDK oficial](https://github.com/mercadopago/sdk-php)
 
 
 ### Agradecimientos
