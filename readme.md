@@ -21,7 +21,7 @@ En su archivo `config/app.php` agregue:
      * Laravel Framework Service Providers...
      */
 
-    'EnlineaLab\MercadoPago\Providers\MercadoPagoServiceProvider',
+    EnlineaLab\MercadoPago\Providers\MercadoPagoServiceProvider::class,
 ],
 ``` 
 
@@ -31,7 +31,7 @@ Tambien puede crear un `alias`:
 'aliases' => [
     // Otros alias 
 
-    'MP' => 'EnlineaLab\MercadoPago\Facades\MP',
+    'MP' => EnlineaLab\MercadoPago\Facades\MP::class,
 ]
 ```
 
