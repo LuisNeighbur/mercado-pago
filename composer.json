@@ -5,12 +5,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Rodrigo Maia",
-            "email": "rodurma@gmail.com"
-        },
-        {
             "name": "Luis Neighbur",
             "email": "luisneighbur@gmail.com"
+        },
+        {
+            "name": "Rodrigo Maia",
+            "email": "rodurma@gmail.com"
         }
     ],
     "require": {
