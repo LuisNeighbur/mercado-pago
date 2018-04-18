@@ -1,4 +1,5 @@
-<?php namespace Livepixel\MercadoPago\Facades;
+<?php 
+namespace EnlineaLab\MercadoPago\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,16 +1,16 @@
-# Mercado Pago SDK for Laravel
+# Mercado Pago SDK 0.5.2 for Laravel 5
 
 * [Instalar](#install)
 * [Configurando](#config)
 * [Como usar](#how-to)
-* [Mais informações](#info)
+* [Mais informcion](#info)
 
 <a name="install"></a>
 ### Instalar
 
-`composer require livepixel/mercado-pago`
+`composer require enlinealab/mercado-pago`
 
-No seu arquivo `config/app.php` adicione o seguinte trecho de código:
+En su archivo `config/app.php` agregue:
 
 ```php
 'providers' => [
@@ -19,28 +19,40 @@ No seu arquivo `config/app.php` adicione o seguinte trecho de código:
      * Laravel Framework Service Providers...
      */
 
-    'LivePixel\MercadoPago\Providers\MercadoPagoServiceProvider',
+    'EnlineaLab\MercadoPago\Providers\MercadoPagoServiceProvider',
 ],
 ``` 
 
-Você também pode criar um `alias` com o trecho de código:
+Tambien puede crear un `alias`:
 
 ```php
 'aliases' => [
-	// Outros alias 
+	// Otros alias 
 
-    'MP' => 'LivePixel\MercadoPago\Facades\MP',
+    'MP' => 'EnlineaLab\MercadoPago\Facades\MP',
 ]
 ```
 
 <a name="config"></a>
 ### Configurando
 
-Antes de começar a usar vamos publicar o arquivo de configuração. Na pasta do seu projeto Laravel, execute o seguinte comando artisan:
+Antes de comezar a usar vamos publicar o archivoo de configuracion. 
+En el directorio de su proyecto ejecute el siguiente comando:
 
 `php artisan vendor:publish`
 
-O comando acima irá gerar um arquivo `config/mercadopago.php`. Neste arquivo você deve adicionar seu App Id e App Secret. Para saber qual é o seu acesse o [site do Mercado Pago](https://www.mercadopago.com/mlb/ferramentas/aplicacoes)
+El comando anterior generará un archivo `config/mercadopago.php`. 
+En este archivo debe agregar su App Id y App Secret. 
+Para saber cuáles son sus claves ingrese a
+
+..*[Argentina](https://www.mercadopago.com/mla/herramientas/aplicaciones)
+..*[Brazil](https://www.mercadopago.com/mlb/ferramentas/aplicacoes)
+..*[Mexico](https://www.mercadopago.com/mlm/herramientas/aplicaciones)
+..*[Venezuela](https://www.mercadopago.com/mlv/herramientas/aplicaciones)
+..*[Colombia](https://www.mercadopago.com/mco/herramientas/aplicaciones)
+..*[Chile](https://www.mercadopago.com/mlc/herramientas/aplicaciones)
+..*[Uruguay](https://www.mercadopago.com/muy/herramientas/aplicaciones)
+
 
 ```php
 return [
@@ -49,12 +61,12 @@ return [
 ];
 ```
 
-Você também pode configurar adicionando as chaves `MP_APP_ID` e `MP_APP_SECRET` em seu arquivo `.env` (recomendado).
+Tambien pude configurarlo agregando las claves `MP_APP_ID` e `MP_APP_SECRET` en su archivo `.env` 
 
 <a name="how-to"></a>
 ### Como usar
 
-Neste exemplo, vamos criar uma preferência de pagamento e depois redirecionar o usuário para realizar o pagamento no Mercado Pago.
+En este ejemplo, vamos a crear una preferencia de pago y luego redirigir al usuario a realizar el pago en el MercadoPago.
 
 ```php
 <?php
@@ -99,6 +111,10 @@ class HomeController extends Controller
 ```
 
 <a name="info"></a>
-### Mais informações
+### Mas
 
-Para mais informações acesse o site do [Mercado Pago para desenvolvedores](https://developers.mercadopago.com/) e também o [repositório do SDK oficial](https://github.com/mercadopago/sdk-php)
+Para más información acceda al sitio de [Mercado Pago para desarrolladores](https://developers.mercadopago.com/) y tambien a [repositório do SDK oficial](https://github.com/mercadopago/sdk-php)
+
+
+###
+Espacial Gracias a [livelpixel](https://github.com/livepixel/) quien adpto el sdk en primer lugar.
