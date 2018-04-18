@@ -1,5 +1,5 @@
 {
-    "name": "livepixel/mercado-pago",
+    "name": "enlinealab/mercado-pago",
     "description": "Mercado Pago API SDK for Laravel",
     "keywords": ["mercadopago", "sdk"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Rodrigo Maia",
             "email": "rodurma@gmail.com"
+        },
+        {
+            "name": "Luis Neighbur",
+            "email": "luisneighbur@gmail.com"
         }
     ],
     "require": {
@@ -14,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LivePixel\\MercadoPago\\" : "src/"
+            "EnlineaLab\\MercadoPago\\" : "src/"
         }
     }
 }
