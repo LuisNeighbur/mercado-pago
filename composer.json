@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "ext-curl": "*"
+        "ext-curl": "*",
     },
     "autoload": {
         "psr-4": {
